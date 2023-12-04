@@ -1,0 +1,37 @@
+.link {
+    transition: opacity 0.3s ease-in-out; 
+  }
+  
+@keyframes fade {
+    from { 
+        opacity: 0; 
+    }
+
+    to { 
+        opacity: 1; 
+    }
+  }
+  
+  .link {
+    animation: fade 0.5s ease-in-out; 
+  }
+  
+
+  .container {
+    transition: opacity 0.3s ease-in-out; 
+  }
+  
+  @keyframes fade {
+    from {
+        opacity: 0; 
+    }
+
+    to { 
+        opacity: 1; 
+    }
+  }
+  
+  .container {
+    animation: fade 1s ease-in-out;
+  }
+  

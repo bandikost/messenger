@@ -1,0 +1,14 @@
+.link {
+    transition: opacity 0.3s ease-in-out; /* Example using CSS transitions */
+  }
+  
+  /* If you want to use CSS animations instead */
+  @keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .link {
+    animation: fade 0.5s ease-in-out; /* Example using CSS animations */
+  }
+  
